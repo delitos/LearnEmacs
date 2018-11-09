@@ -1,0 +1,109 @@
+#+TAGS: meeting(m) work home important
+#+TITLE: EMACS
+#+AUTHOR: RobertWu
+#+EMAIL: Robertwu19960821@gmail.com
+#+KEYWORDS:emacs, org-mode
+
+* Headline & Outline mode
+** Headline start with one or more *
+** Visibility of the headline hierarchy
+   Local visibility cycling with Tab
+   Global visibility cycling with Shift+Tab
+** Increase or decrease level with Alt+左键/右键
+** Move up/down within a level with Alt+上/下键
+** Move a headline under top level headline:
+   Curor on the headline and then Ctrl+c C+w
+
+
+* ToDo Keywords
+** Default is TODO and DONE
+** Cycling through them with Shift左右
+** More keywords can be defined with a line 
+   #+SEQ_TODO:
+   Item left of|are TODO items(red)
+   Item right of|are Done items(green)
+** Activate line with C+c C+c
+** Get a menu of all keywords C+c C+t
+
+
+* Schedule,deadlines & agenda views                               
+** Scheduling is done with C+c C+s
+** Deadlines are defined with C+c C+d
+** Swith to agenda view with M+x org-agenda RET a
+*** Follow mode with S+f
+*** Move forward with f
+*** or backward with b
+
+* 快捷键                                                          
+|----------------+----------------------------------------------|
+| 展开及收缩     |                                              |
+|----------------+----------------------------------------------|
+| S-Tab          | 所有标题展开                                 |
+| Tab            | 光标所在标题展开                             |
+|----------------+----------------------------------------------|
+| 标题跳转       |                                              |
+|----------------+----------------------------------------------|
+| C-n C-n/p      | 下/上标题                                    |
+| C-c C-f/b      | 下/上标题 仅同一标题                         |
+| C-c C-u        | 跳到上一级标题                               |
+| C-c C-j        | 跳转到                                       |
+|----------------+----------------------------------------------|
+| 插入及编辑     |                                              |
+|----------------+----------------------------------------------|
+| M-Ret          | 插入同级标题                                 |
+| M-S-Ret        | 插入同级的TODO标题                           |
+| M-Left/Right   | 将当前标题升/降级                            |
+| M-S-Left/Right | 将当前标题及子树升/降级                      |
+| M-S-up/down    | 将当前标题及子树上/下移                      |
+| C-c *          | 将本行设置为标题/正文                        |
+| C-c C-w        | 将子树及区域移动至另一标题处                 |
+| C-x n s/w      | 只显示当前标题及子树/返回，orgnarrow         |
+| C-c C-x b      | 在新缓冲区显示当前标题及子树/返回(同C-c n s) |
+| C-c /          | 只显示搜索结果的大纲并高亮                   |
+| C-c C-c        | 取消高亮                                     |
+|----------------+----------------------------------------------|
+| 链接           |                                              |
+|----------------+----------------------------------------------|
+| C-c C-l        | 编辑链接                                     |
+| C-c C-o        | 打开链接                                     |
+|----------------+----------------------------------------------|
+| 字体           |                                              |
+|----------------+----------------------------------------------|
+| *粗体*         |                                              |
+| /xieti/        |                                              |
+| +删除线+       |                                              |
+| _xiahuaxian_   |                                              |
+|----------------+----------------------------------------------|
+| 表格           |                                              |
+|----------------+----------------------------------------------|
+| C-c+竖线       | 创建表格                                     |
+| C-c C-c        | 重新调整表格缩进                             |
+| Tab            | 移动下一个                                   |
+| S-Tab          | 移动上一个                                   |
+| M-Left/Right   | 移动列                                       |
+| M-Up/Down      | 移动行                                       |
+| M-S-Left/Right | 删除/插入列                                  |
+| M-S-Up/Down    | 删除/插入行                                  |
+| C-c -          | 插入水平分割线                               |
+| C-c Ret        | 插入水瓶分割线并跳到下一行                   |
+| C-c ^          | 根据当前列排序                               |
+|----------------+----------------------------------------------|
+| 标签           |                                              |
+|----------------+----------------------------------------------|
+| C-c C-q        | 创建标签                                     |
+| C-c C-c        | 在标题上使用，创建标签                       |
+| C-c / m或C-c \ | 按照tag检索                                  |
+| C-c a m        | 按标签搜索多个文件 需要把文件加入全局agenda  |
+|----------------+----------------------------------------------|
+| 导出和发布     |                                              |
+|----------------+----------------------------------------------|
+| C-c C-e        | 自带导出功能                                 |
+|----------------+----------------------------------------------|
+
+
+
+
+* 基础功能
+  http://www.baidu.com baidu
+  
+
