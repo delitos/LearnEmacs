@@ -1,0 +1,8 @@
+* 添加package源
+  M-x customize-variable RET package-archives
+  - 添加
+    name: melpa
+    url: https://melpa.org/packages
+    这个需要科学上网
+  - 再次使用M-x list-packages就会看到包的数量明显变多
+    

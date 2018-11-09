@@ -1,0 +1,3 @@
+添加package源
+M-x customize-variable RET package-archives
+添加
