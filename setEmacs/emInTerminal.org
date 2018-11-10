@@ -1,3 +1,4 @@
 * 在终端中使用em打开GUI Emacs
 ** 在.zshrc中添加alias em="open -a /Applications/Emacs.app/Contents/MacOS/Emacs $@"即可
+** .emacs中添加： (setq ns-pop-up-frames nil)并M-x 执行 eval-buffer，使打开文件时不打开新的窗口，而是作为当前窗口的一个buffer。
 
