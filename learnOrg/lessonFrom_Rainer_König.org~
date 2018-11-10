@@ -1,8 +1,8 @@
-#+TAGS: meeting(m) work home important
 #+TITLE: EMACS
 #+AUTHOR: RobertWu
 #+EMAIL: Robertwu19960821@gmail.com
 #+KEYWORDS:emacs, org-mode
+#+TAGS: meeting(m) work home important
 
 * Headline & Outline mode
 ** Headline start with one or more *
@@ -43,7 +43,7 @@
 |----------------+----------------------------------------------|
 | 标题跳转       |                                              |
 |----------------+----------------------------------------------|
-| C-n C-n/p      | 下/上标题                                    |
+| C-n/p          | 下/上标题                                    |
 | C-c C-f/b      | 下/上标题 仅同一标题                         |
 | C-c C-u        | 跳到上一级标题                               |
 | C-c C-j        | 跳转到                                       |
